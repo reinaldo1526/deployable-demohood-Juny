@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "node server",
-    "build": "ng build --prod --aot -- optimization=false --output-path demohood",
+    "build": "ng build --prod --aot --optimization=false --output-path demohood",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod -- aot --optimization=false"
+    "postinstall": "ng build --prod --aot --optimization=false"
   },
   "private": true,
   "dependencies": {
